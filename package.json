@@ -1,0 +1,15 @@
+{
+	"name" : "name-of-project",
+	"version" : "0.0.0",
+	"description" : "enter a description of the project here",
+	"author" : "enter your name here",
+	"main" : "filename-of-main-script.js",
+	"scripts" : {
+		"start" : "node nodeaufg10.js"
+	},
+	"engines" : {
+		"node" : "6.10.2"
+	},
+	"dependencies" : {
+	}
+}
