@@ -160,8 +160,8 @@ var Form;
     function send() {
         var urlparse = document.getElementById("bestellung").innerHTML;
         let xhr = new XMLHttpRequest();
-        xhr.open("GET", "http://localhost:8100?bestellung=" + urlparse, true);
-        //xhr.open("GET", "https://eia2-servertest.herokuapp.com?bestellung=" + urlparse, true);
+        //xhr.open("GET", "http://localhost:8100?bestellung=" + urlparse, true);
+        xhr.open("GET", "https://eia-eisdealer-jade.herokuapp.com?bestellung=" + urlparse, true);
         xhr.addEventListener("readystatechange", handleStateChange);
         xhr.send();
     }
